@@ -58,7 +58,7 @@ namespace neopixel {
          * Shows all LEDs to a given color (range 0-255 for r, g, b). 
          * @param rgb RGB color of the LED
          */
-        //% blockId="neopixel_set_strip_color" block="%strip|show color %rgb=neopixel_colors" 
+        //% blockId="neopixel_set_strip_color" block="%strip|显示颜色 %rgb=neopixel_colors" 
         //% weight=85 blockGap=8
         //% parts="neopixel"
         showColor(rgb: number) {
@@ -72,7 +72,7 @@ namespace neopixel {
          * @param startHue the start hue value for the rainbow, eg: 1
          * @param endHue the end hue value for the rainbow, eg: 360
          */
-        //% blockId="neopixel_set_strip_rainbow" block="%strip|show rainbow from %startHue|to %endHue" 
+        //% blockId="neopixel_set_strip_rainbow" block="%strip|显示彩虹从 %startHue|到 %endHue" 
         //% weight=85 blockGap=8
         //% parts="neopixel"
         showRainbow(startHue: number = 1, endHue: number = 360) {
@@ -139,7 +139,7 @@ namespace neopixel {
          * @param high maximum value, eg: 255
          */
         //% weight=84
-        //% blockId=neopixel_show_bar_graph block="%strip|show bar graph of %value|up to %high" 
+        //% blockId=neopixel_show_bar_graph block="%strip|显示柱状图从 %value|到 %high" 
         //% icon="\uf080"
         //% parts="neopixel"
         showBarGraph(value: number, high: number): void {
